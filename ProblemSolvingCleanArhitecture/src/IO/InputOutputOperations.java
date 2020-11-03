@@ -20,7 +20,7 @@ public class InputOutputOperations implements I_InputOutputOperations {
 
         int LengthOfArray = Data.GetLengthOfOneDimensionalArray();
 
-        for (int iterator = 0; iterator > LengthOfArray; iterator++)
+        for (int iterator = 0; iterator < LengthOfArray; iterator++)
             System.out.print(Data.GetOneDimensionalArray()[iterator] + " ");
     }
 }
