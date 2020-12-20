@@ -8,5 +8,5 @@ public interface IDataStructures {
 
     int[] GetOneDimensionalArray();
 
-    void SetValueForOneElementInOneDimensionalArray(int PositionOfElement, int NewValueForElement);
+    void SetOneDimensionalArray(int[] Array);
 }

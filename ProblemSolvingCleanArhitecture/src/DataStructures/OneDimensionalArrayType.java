@@ -22,9 +22,9 @@ public class OneDimensionalArrayType implements IDataStructures {
         return this.Array;
     }
 
-    public void SetValueForOneElementInOneDimensionalArray(int PositionOfElement, int NewValueForElement) {
+    public void SetOneDimensionalArray(int[] Array) {
 
-        this.Array[PositionOfElement] = NewValueForElement;
+        this.Array = Array;
     }
 
 }
